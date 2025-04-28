@@ -4,7 +4,7 @@
 - Marcelo Villalobos Diaz
 - Vance Thrasher
 - Rob Stanford
-- Zuhura
+- Zuhra Totakhail
 
 ## 📁 Project Structure
 
