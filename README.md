@@ -1,5 +1,11 @@
 # Secure Chat Application using TLS and Mininet
 
+## Authors
+- Marcelo Villalobos Diaz
+- Vance Thrasher
+- Rob Stanford
+- Zuhura
+
 ## 📁 Project Structure
 
 - `certificate_generation.py` — Generates server certificates.
