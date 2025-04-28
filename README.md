@@ -1,19 +1,34 @@
-# PA4 - 
-## [Instructions](https://docs.google.com/document/d/1o4mde9BbwzyEQqjqKR2JFFgyiOoxZcqOCaEcrWTHwLw/edit?usp=sharing)
+# Secure Chat Application using TLS and Mininet
 
-## Roles
-- Marcelo and Vance = Python script to create Mininet network
-- Zuhra = Extend TCP Chat Server and Clients to work with 3 Clients chatting
-- Rob = Python script to generate certs
+## 📁 Project Structure
 
-### Required for submission
-- Modify a python script to setup Mininet network
-    - a picture of the network design
-    - a txt file list the changes made to the python script
-    - demo video showing network and pingall command working
-- Extend TCP Chat server from previous programming assignment #3 to allow 3 chat clients to work together and support TLS
-    - update modified python script from step 1 to run chat server and 3 clients on Mininet hosts
-    - a demo video showing chat server supporting 3 chat clients
-- Python script to generate certificate generation which will be used by chat server and clients from item 2
-    - a demo video show script works to generate video
-- Team evaluation.
+- `certificate_generation.py` — Generates server certificates.
+- `legacy_network.py` — Builds the network in Mininet.
+- `tpa4_chat_server.py` — Secure chat server.
+- `tpa4_chat_client.py` — Secure chat client.
+
+---
+
+## 🚀 How It Works
+
+1. Certificates are created.
+2. Mininet topology is built.
+3. Server and clients communicate over TLS.
+
+---
+
+## 🛠 Prerequisites
+
+- Python 3.6+
+- Mininet
+- OpenSSL
+- `python-hosts` library
+
+Install `python-hosts` using:
+
+```bash
+pip install python-hosts
+sudo -E python3 legacy_network.py
+Type your hostname when prompted.
+Chat server and clients will automatically open.
+To exit the chat, type bye.
